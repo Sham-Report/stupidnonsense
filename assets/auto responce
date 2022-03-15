@@ -1,0 +1,65 @@
+ALLOTMENT_PENDING-------------------------
+{
+  "status": "SUCCESS",
+  "request_type": "TRACK_RIDE",
+  "booking_id": "CRN1204631650",
+  "booking_time": "2017-11-02T15:48:49+5:30",
+  "pickup_time": "2017-11-02T15:49:19+5:30",
+  "pickup_lat": 17.442757,
+  "pickup_lng": 78.39731,
+  "drop_lat": 17.448294,
+  "drop_lng": 78.39149,
+  "booking_status": "ALLOTMENT_PENDING"
+}
+
+
+CALL_DRIVER-----------------
+ {
+  "status": "SUCCESS",
+  "request_type": "TRACK_RIDE",
+  "booking_id": "CRN1204619195",
+  "driver_name": "ESLAVATH",
+  "driver_number": "9652865636",
+  "cab_details": {
+    "cab_type": "auto",
+    "cab_number": "TS07UC7681",
+    "car_model": "",
+    "car_color": ""
+  },
+  "driver_image_url": "http://s3-ap-southeast-1.amazonaws.com/ola-ims-drivers/production/drivers/10737871/original_1506423780773.jpeg",
+  "driver_rating": 4.71832,
+  "pickup_lat": 17.442698,
+  "pickup_lng": 78.39742,
+  "drop_lat": 17.448294,
+  "drop_lng": 78.39149,
+  "driver_lat": 17.4384785,
+  "driver_lng": 78.3984876,
+  "bearing": 0,
+  "speed": 0,
+  "googleDuration": {
+    "value": 1,
+    "unit": "MINUTES"
+  },
+  "googleDistance": {
+    "value": 622,
+    "unit": "METRES"
+  },
+  "booking_status": "CALL_DRIVER",
+  "coupon_code": "HYD29",
+  "otp": {
+    "start_trip": {
+      "text": "OTP to start ride",
+      "value": "3298"
+    }
+  },
+  "share_ride_url": "https://www.olacabs.com/track/313sq1trcj"
+}
+
+
+BOOKING_CANCEL --------------
+{
+  "status": "SUCCESS",
+  "request_type": "BOOKING_CANCEL",
+  "header": "Booking Cancelled",
+  "text": "Your booking with CRN1204417249 has been cancelled successfully."
+}
